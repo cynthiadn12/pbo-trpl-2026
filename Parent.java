@@ -68,3 +68,9 @@ public class Main {
         anak.panggilPrivateChild(); 
     }
 }
+
+/*
+Cara mencoba error final method:
+Jika Anda ingin melihat langsung kenapa final method tidak bisa di-override, hapus tanda komentar (//) pada bagian @Override public void methodFinal() di dalam class Child, lalu coba jalankan lagi. 
+Program akan langsung menolak untuk berjalan (Compile-time error).
+*/
